@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,100&display=swap');
+
+body{
+    background-color: black;
+    font-family: 'Raleway', sans-serif;
+}
+
+.bg{
+    position: right;
+}
+
+.main1{
+    position: absolute;
+    top: 1000px;
+    right: 0px;
+    border: 1px dashed white;
+    color: white;
+}
+
+.plumbustext{
+    color: white;
+    border: 1px dashed white;
+    position: absolute;
+    text-align: center;
+}
+
+
+/* #buttonimage{
+    width: 24px;
+    margin: 0;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+    appearance:inherit
+    background-color: transparent;
+} */
+
+/* .plumbus{
+    height: 100%
+
+} */
+
+.button1{
+    padding-top: 3%;
+    opacity: 1;
+    transition: opacity 1s ease-in;
+}
+
+
+.container{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+}
+
+.container span{
+    text-transform: uppercase;
+    display: block
+}
+
+.text1{
+    color: white;
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: 10px;
+    margin-bottom: 10px;
+    background: rgb(0, 0, 0);
+    position: relative;
+    animation: text 3s 1;
+}
+
+
+.text2{
+    color:white;
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+}
+
+
+@keyframes text{    
+    0%{
+        color:black;
+        margin-bottom: -40px;
+    }
+    30%{
+        letter-spacing: 25px;
+        margin-bottom: -40px;
+    }
+    85%{
+        letter-spacing: 8px;
+        margin-bottom: -40px;
+
+    }
+}
